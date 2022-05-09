@@ -149,6 +149,7 @@ body{
   }
   .player1{
     padding:0;
+    margin:0;
   }
   .player1 a{
     margin-left:1.1rem ;
