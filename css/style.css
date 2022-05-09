@@ -2,6 +2,9 @@ body{
   background-color: #1A3C40;
   margin:0;
 }
+a:active{
+  background-color:green;
+}
 .playing-section{
   display:grid;
   grid-template-columns: 50% 50%;
