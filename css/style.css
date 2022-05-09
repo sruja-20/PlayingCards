@@ -1,5 +1,6 @@
 body{
   background-color: #1A3C40;
+  margin:0;
 }
 .playing-section{
   display:grid;
