@@ -161,5 +161,9 @@ body{
   .player-container{
     padding:0;
   }
+  .div-item img{
+    padding-top:0;
+    padding-bottom:0;
+  }
 
 }
