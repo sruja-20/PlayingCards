@@ -156,9 +156,9 @@ function isPlayerPresent(player,num){
 
 function displayResult(playerwin,playerlost){
   setTimeout(function(){
-    $(playerwin+" .stats-container").html("<img style='width:100%' class='res' src = 'images/win.jfif'>");
-    $(playerlost+" .stats-container").html("<img style='width:100%' src = 'images/wrong.jfif'>");
-  },2500);
+    $(playerwin+" .stats-container").html("<img style='width:50%' class='res' src = 'images/win.jfif'>");
+    $(playerlost+" .stats-container").html("<img style='width:50%' src = 'images/wrong.jfif'>");
+  },1500);
   $('.yours h1').html("players left : "+player1.length);
   $('.opponent h1').html("players left : "+player2.length);
 }
