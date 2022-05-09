@@ -158,7 +158,7 @@ function displayResult(playerwin,playerlost){
   setTimeout(function(){
     $(playerwin+" .stats-container").html("<img style='width:20%' class='res' src = 'images/win.jfif'>");
     $(playerlost+" .stats-container").html("<img style='width:20%' src = 'images/wrong.jfif'>");
-  },4500);
+  },6000);
   $('.yours h1').html("players left : "+player1.length);
   $('.opponent h1').html("players left : "+player2.length);
 }
