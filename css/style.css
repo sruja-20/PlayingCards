@@ -158,5 +158,8 @@ body{
     display: grid;
     grid-template-columns: 100%;
   }
+  .player-container{
+    padding:0;
+  }
 
 }
