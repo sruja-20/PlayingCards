@@ -187,7 +187,7 @@ function timer(){
       $(".player1 a").unbind("click");
       computerPlay();
     }
-  },5000);
+  },10000);
 
 }
 
