@@ -147,10 +147,9 @@ body{
   .player-container h2{
     margin: 0;
   }
-  /* .player-container{
-    grid-template-columns: 50% 50%;
-    padding: 1.2rem;
-  } */
+  .player1{
+    padding:0;
+  }
   .player1 a{
     margin-left:1.1rem ;
     padding: 1.01;
